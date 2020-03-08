@@ -1,8 +1,8 @@
 import React from 'react';
 import Inputs from './Inputs';
-import { styleList } from '../styleList';
-import { formatWords, formatVowel } from '../formats';
-import '../css/App.css';
+import { styleList } from '../resources/styleList';
+import { formatWords, formatVowel } from '../resources/formats';
+import './App.scss';
 
 class App extends React.Component {
   state = {
