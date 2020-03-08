@@ -70,7 +70,7 @@ class App extends React.Component {
         );
       }
     };
-
+    // TEXT IS FORMATTED AND SPLIT INTO AN ARRAY
     const styledArrOfWords = text
       .trim()
       .replace(/\s\s+/g, ' ')
@@ -88,6 +88,7 @@ class App extends React.Component {
       result: styledArrOfWords.join(' ')
     });
   };
+
   render() {
     return (
       <div className='container'>

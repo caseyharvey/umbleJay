@@ -198,7 +198,7 @@ form {
   display: flex;
   font-size: 1.2em;
   margin-top: 15px;
-  min-height: 240px;
+  min-height: 200px;
   text-align: center;
   line-height: 1.4em;
   border-radius: 2px;
@@ -225,7 +225,7 @@ input[type='radio']:checked + label {
   background-color: #fafafa;
 }
 
-input[type='text'] {
+input {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
